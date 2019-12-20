@@ -23,7 +23,7 @@ class User
 
 val user1 = new User
 ```
-The keyword `new` is used to create an instance of the class. `User` has a default constructor which takes no arguments because no constructor was defined. However, you'll often want a constructor and class body. Here is an example class definition for a point:
+The keyword `new` is used to create an instance of the class. `User` has a default constructor which takes no arguments because no constructor was defined. However, you'll often want a constructor and a class body. Here is an example class definition for a point:
 
 ```tut
 class Point(var x: Int, var y: Int) {
