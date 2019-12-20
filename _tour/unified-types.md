@@ -50,10 +50,10 @@ true
 ```
 
 ## Type Casting
-Value types can be cast in the following way:
+Value types can be cast unidirectionally in the following way:
 <a href="{{ site.baseurl }}/resources/images/tour/type-casting-diagram.svg"><img  style="width:100%" src="{{ site.baseurl }}/resources/images/tour/type-casting-diagram.svg" alt="Scala Type Hierarchy"></a>
 
-For example:
+For example this will compile:
 
 ```tut
 val x: Long = 987654321
@@ -63,7 +63,7 @@ val face: Char = '☺'
 val number: Int = face  // 9786
 ```
 
-Casting is unidirectional. This will not compile:
+This will not compile:
 
 ```
 val x: Long = 987654321
